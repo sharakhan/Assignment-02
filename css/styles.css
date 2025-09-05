@@ -1,0 +1,27 @@
+body {
+    margin: 0 150px;
+}
+
+
+#cart-icon {
+    height: 28px;
+    width: auto;
+    display: inline-block;
+}
+
+#nav-links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+#nav-links li:nth-child(2), li {
+    color: #8987A1;
+}
+
+#nav-links li:first-child, #nav-links li:last-child {
+    color: #000;
+    
+}
