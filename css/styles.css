@@ -30,3 +30,23 @@ body {
     height: auto;
 
 }
+.big-image {
+    width: 60vw;
+}
+
+.small-image {
+    width: 40vw;
+    height: 60vh;
+}
+
+.img-container {
+  position: relative;
+}
+
+.img-text-center {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
