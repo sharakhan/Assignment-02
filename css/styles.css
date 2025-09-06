@@ -56,3 +56,15 @@ body {
     text-align: center;
   
 }
+
+@media screen and (max-width: 640px) {
+    body {
+        margin: 0 16px;
+        padding: 0 16px;
+    }
+
+    #nav-links {
+        gap: 5px;
+    }
+    
+}
